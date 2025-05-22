@@ -33,7 +33,17 @@ import Layout from "../layouts/main.astro";
           <li>Website Design</li>
           <li>and more...</li>
         </ul>
-        <Button text="Hire me" link="https://www.linkedin.com/in/yogesh-shrestha-b90976231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" />
+        <!-- <Button text="Hire me" link="https://www.linkedin.com/in/yogesh-shrestha-b90976231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" /> -->
+   
+        <a 
+  href="#contact"
+  class="inline-flex items-center gap-2 border border-black dark:border-white px-4 py-2 rounded-lg text-black dark:text-white transition hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black"
+>
+  Hire me
+</a>
+
+
+
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -72,7 +82,7 @@ import Layout from "../layouts/main.astro";
   <Projects />
 
 <!-- Contact Section -->
-  
+  <section id="contact">
     <div class="flex flex-col items-center justify-center text-center mt-10">
   <h2 class="mb-4 text-2xl font-bold text-black dark:text-white">Contact Me</h2>
 
@@ -122,7 +132,7 @@ import Layout from "../layouts/main.astro";
     </button>
   </div>
 </div>
-
+</section>
 
 <!-- JavaScript should be after the HTML -->
 <script>
