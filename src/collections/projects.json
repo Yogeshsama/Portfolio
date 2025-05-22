@@ -1,0 +1,44 @@
+[
+	{
+		"name": "SweepStakes",
+		"description": "Play your favorite slot games, fish games, and more.",
+		"image": "/assets/images/projects/Sweepstake.png",
+		"url": "https://sweepstake.game"
+	},
+	{
+		"name": "3D Environment",
+		"description": "Open world 3D environment with water lake and water efects",
+		"image": "/assets/images/projects/3d Environment.png",
+		"url": "https://github.com/Yogeshsama/3D-Environment.git"
+	},
+	{
+		"name": "Flappy Bird",
+		"description": "Flappy Bird look alike.",
+		"image": "/assets/images/projects/flappy.png",
+		"url": "https://drive.google.com/drive/folders/1eIkZYVF5wTYsAWY-4Q4BUNJxvEx2DczN?usp=drive_link"
+	},
+	{
+		"name": "Teddy MVP",
+		"description": "A Learning Game for children with speech-speech interaction",
+		"image": "/assets/images/projects/Teddy.png",
+		"url": "https://drive.google.com/drive/folders/1CRMCrAVnpICQmkij4BdlNE7c1uIjvMN3?usp=drive_link"
+	},
+	{
+		"name": "Slot Game Demo",
+		"description": "slot game demo in Unity featuring jackpot mechanics and API response integration for backend simulation.",
+		"image": "/assets/images/projects/Slot-Demo.png",
+		"url": "https://github.com/Yogeshsama/Demo-Slot.git"
+	},
+	{
+		"name": "VR Card & Board Games",
+		"description": "Immersive VR card games and board games with multiplayer support",
+		"image": "/assets/images/projects/vr-board.png",
+		"url": "https://drive.google.com/drive/folders/1bK6DXPHmc4iDmP-6svk6Aftzt7kI76p3?usp=drive_link"
+	},
+	{
+		"name": "Portfolio",
+		"description": "Responsive portfolio website showcasing my projects and skills.",
+		"image": "/assets/images/projects/vr-board.png",
+		"url": "https://drive.google.com/drive/folders/1bK6DXPHmc4iDmP-6svk6Aftzt7kI76p3?usp=drive_link"
+	}
+]

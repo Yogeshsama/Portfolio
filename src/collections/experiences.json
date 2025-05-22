@@ -1,0 +1,16 @@
+[
+	{
+		"dates": "Feb 2023 · Present",
+		"role": "Senior Game Developer",
+		"company": "AL Octagon IT Services Co. LLC",
+		"description": "Responsible for developing slot and jackpot machine games in Unity with full API integration for real-time backend communication. Built multiplayer fish shooting games using Photon Fusion with Socket integration, focusing on synchronized gameplay and performance optimization..",
+		"logo": "/assets/images/experiences/AL-Octagon.ico"
+	},
+	{
+		"dates": "October 2021 · Feb 2023",
+		"role": "Game Developer(AR/VR)",
+		"company": "Paracosma Nepal Pvt. Ltd",
+		"description": "Responsible for developing VR board and card games in Unity. Built a speech-to-speech AI chatbot in VR using IBM Watson with Wikipedia search integration. Created a multiplayer VR simulation to promote safety gear usage among workers. Designed a virtual world using Cluster Toolkit with interactive characters and tasks.",
+		"logo": "/assets/images/experiences/Paracosma.ico"
+	}
+]

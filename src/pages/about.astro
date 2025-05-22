@@ -1,0 +1,117 @@
+---
+import experiences from "../collections/experiences.json";
+import AboutExperience from "../components/about-experience.astro";
+import PageHeading from "../components/page-heading.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="About Me">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="About Me"
+      description="Hello 👋 I'm a Game Developer from Kathmandu, Nepal. I'm passionate about building engaging games and interactive experiences across 2D, 3D, AR, and VR. I love experimenting with new technologies and continuously learning to improve my craft. Whether it's prototyping new ideas, optimizing gameplay, or working on multiplayer features, I enjoy every step of the development process."
+    />
+
+    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Skills</h2>
+    <p
+      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      Unity Engine, C#, Python, Flutter, Android, IoT, Frontend, Backend .
+    </p>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+    >
+      Experience
+    </h2>
+    <div class="px-5 py-10">
+      {
+        experiences.map((experience) => {
+          return (
+            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+              <AboutExperience
+                dates={experience.dates}
+                role={experience.role}
+                company={experience.company}
+                description={experience.description}
+                logo={experience.logo}
+              />
+            </div>
+          )
+        })
+      }
+    </div>
+
+
+ <!-- CV Section -->
+<section class="max-w-xl mx-auto my-10 p-6 rounded-2xl border border-black dark:border-white shadow-lg">
+  <!-- CV Preview Thumbnail (Optional Scrollable) -->
+  <div class="border rounded-lg overflow-hidden shadow mb-6">
+    <img
+      src="/assets/images/CV.png"
+      alt="CV Preview"
+      class="object-cover w-full h-60"
+    />
+  </div>
+
+  <!-- CV Info -->
+  <h2 class="text-2xl font-bold mb-2 dark:text-white">Curriculum Vitae</h2>
+  <p class="mb-4 text-gray-700 dark:text-neutral-300">
+    View and download my CV by clicking on the button below.
+  </p>
+
+  <!-- Download Button -->
+  <a
+    href="/assets/Yogesh-CV.pdf"
+    download
+  class="inline-flex items-center gap-2 px-4 py-2 border border-black dark:border-white text-black dark:text-white rounded-lg transition hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black"
+>
+  <!-- PDF Icon -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M6 2a2 2 0 0 0-2 2v16c0 1.103.897 2 2 2h12a2 2 0 0 0 2-2V8l-6-6H6zm7 1.5L18.5 9H13V3.5zM8 13h1v5H8v-5zm2.5 0H12l.5 1.5.5-1.5h1.5L13 16h-1l-.5-1.5L11 16h-1.5l1-3zm5.5 0h1.25c.414 0 .75.336.75.75v.5a.75.75 0 0 1-.75.75H16v1h1v1h-2v-5z"/>
+  </svg>
+
+  Download CV
+  </a>
+</section>
+
+
+
+
+
+
+    <!-- <h2 class="mt-10 mb-4 text-3xl font-bold text-neutral-800 dark:text-neutral-200">
+  Get in Touch
+</h2>
+<p class="text-base leading-relaxed text-gray-700 dark:text-neutral-400">
+  I'm always open to connecting with fellow developers, collaborators, or anyone who shares a passion for games and tech.
+  Feel free to reach out on
+  <a
+    href="https://www.linkedin.com/in/yogesh-shrestha-b90976231"
+    target="_blank"
+    class="text-indigo-600 underline hover:text-indigo-500"
+    >LinkedIn</a
+  > or send me an
+  <a
+    href="mailto:astro-aria@miantiao.me"
+    class="text-indigo-600 underline hover:text-indigo-500"
+    >email</a
+  > — I’ll get back to you as soon as I can.
+</p> -->
+
+    <!-- <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Contact Me</h2>
+    <p
+      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    >
+      We can connect on my LinkedIn <a
+        href="https://www.linkedin.com/in/yogesh-shrestha-b90976231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank"
+        class="text-indigo-600 underline">LinkedIn</a
+      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
+        >email</a
+      > and I'll be sure to get back to you.
+    </p> -->
+  </section>
+</Layout>
