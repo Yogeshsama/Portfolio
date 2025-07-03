@@ -40,5 +40,18 @@
 		"description": "Responsive portfolio website showcasing my projects and skills.",
 		"image": "/assets/images/projects/portfolio.png",
 		"url": "https://yogeshshrestha10.com.np"
+	},
+	{
+		"name": "Unity Hand Tracking with OpenCV and Mediapipe",
+		"description": "Unity project demonstrating hand tracking using OpenCV and Mediapipe.",
+		"image": "/assets/images/projects/HandTrack.png",
+		"url": "https://github.com/Yogeshsama/Unity-Ball---Hand-Tracking.git"
+	},
+	{
+		"name": "Unity Ball Tracking with OpenCV and Mediapipe",
+		"description": "Unity project demonstrating hand tracking using OpenCV and interacting with Physics using live data Feed of tracking.",
+		"image": "/assets/images/projects/BallTrack.png",
+		"url": "https://github.com/Yogeshsama/Unity-Ball---Hand-Tracking.git"
 	}
+
 ]
